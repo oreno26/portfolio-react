@@ -14,7 +14,10 @@ function App() {
     <div className="App">
       <header className="App-header" >
         <Nav />
-       <Footer />
+       {/* <Footer /> */}
+       <About />
+       <Projects />
+       <Contact />
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />

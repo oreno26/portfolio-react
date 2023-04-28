@@ -4,23 +4,25 @@ import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a lo
 import { Carousel } from "react-responsive-carousel";
 import { Box } from "@mui/material";
 import WTR from "./img/wtr.jpg";
+import BUDGET from "./img/Budget.jpg"
+import Mem from "./img/memory.jpg"
 
 const Projects = (props) => {
   return (
-    <Box sx={{m: 2}} style={{ width: "60vw", }}>
+    <Box sx={{m: 2}} style={{ width: "60vw", height:'100vh' }}>
       <Carousel>
-        <div>
-          <img src={WTR} />
+        <div >
+          <img src={WTR}  />
           <p className="legend"><a href="https://wtr.onrender.com">Weather The Ride</a><br/>  
           <a href="https://github.com/oreno26/WTR">Github</a></p>
         </div>
         <div>
-          <img src="assets/2.jpeg" />
-          <p className="legend">Budget</p>
+          <img src={BUDGET} />
+          <p className="legend"><a href="https://github.com/oreno26/project_budget">Github</a></p>
         </div>
         <div>
-          <img src="assets/3.jpeg" />
-          <p className="legend">Legend 3</p>
+          <img src={Mem} />
+          <p className="legend"><a href="https://github.com/oreno26/Memory_game">Github</a></p>
         </div>
       </Carousel>
     </Box>
