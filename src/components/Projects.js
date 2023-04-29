@@ -10,7 +10,8 @@ import Mem from "./img/memory.jpg"
 const Projects = (props) => {
   return (
     <Box sx={{m: 2}} style={{ width: "60vw", height:'100vh' }}>
-      <Carousel>
+      <h1>Projects</h1>
+      <Carousel >
         <div >
           <img src={WTR}  />
           <p className="legend"><a href="https://wtr.onrender.com">Weather The Ride</a><br/>  

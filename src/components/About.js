@@ -1,6 +1,9 @@
 import Projects from "./Projects";
 import image from "./img/profile.jpg"
 import Box from "@mui/material/Box";
+import CVButton from "./Button";
+
+
 
 const About = (props) => {
   return (
@@ -8,6 +11,7 @@ const About = (props) => {
       <div>
         <h1>Oren Ovadia</h1>
         <p style={{ fontSize: "1.5rem" }}>Full Stack Developer<br/>Trainer<br/>Motorcyclist<br/>Photographer</p>
+        <CVButton url="./CV/Oren_Ovadia_CV.pdf" filename="Oren_Ovadia_CV.pdf" />
       </div>
       <img src={image} alt="profile" width={'500px'} height={'500px'} style={{border:'5px black solid', borderRadius:'250px'}} />
       <div style={{width: '25vh', fontSize:'1.1rem'}}>
