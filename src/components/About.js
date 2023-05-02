@@ -1,7 +1,7 @@
 import Projects from "./Projects";
 import image from "./img/profile.jpg";
 import Box from "@mui/material/Box";
-import CVButton from "./Button";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { icon } from "@fortawesome/fontawesome-svg-core";
 import { SizeProp } from "@fortawesome/fontawesome-svg-core";
@@ -11,6 +11,7 @@ import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 const About = (props) => {
   return (
     <Box
+    
       sx={{ m: 2 }}
       style={{
         marginTop:'25vh' ,
@@ -30,7 +31,6 @@ const About = (props) => {
           <br />
           Photographer
         </p>
-        {/* <CVButton url="./CV/Oren_Ovadia_CV.docx" filename="Oren_Ovadia_CV.docx" /> */}
         <div style={{ display: "flex",
         justifyContent: "space-evenly",}}>
           {/* Linkedin */}

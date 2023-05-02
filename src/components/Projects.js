@@ -9,7 +9,7 @@ import Mem from "./img/memory.jpg"
 
 const Projects = (props) => {
   return (
-    <Box sx={{m: 2}} style={{ width: "60vw", height:'100vh' }}>
+    <Box  id="projects" sx={{m: 2}} style={{ width: "60vw", height:'100vh' }} >
       <h1>Projects</h1>
       <Carousel >
         <div >

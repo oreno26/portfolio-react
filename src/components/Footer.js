@@ -1,14 +1,9 @@
-const Footer = () =>{
+const AboutTag = () =>{
     return(
         <>
-        <footer style={{position: 'fixed',
-   left: '0',
-   bottom: '0',
-   width: '100%',
-//    backgroundColor: 'darkgray',
-   }}> This portfolios was made by Oren Ovadia.</footer>
+   <div id="about"></div>
         </>
     )
 }
 
-export default Footer
+export default AboutTag

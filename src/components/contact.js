@@ -32,7 +32,7 @@ const [msg, setMsg] = useState("")
    }
   return (
     <>
-      <Box component="form" sx={{ m: 2 }} style={{ textAlign: "center" }}>
+      <Box id="contact" component="form" sx={{ m: 2 }} style={{ textAlign: "center" }}>
         <h1>Get in Touch</h1>
         <TextField
           style={{ backgroundColor: "white", marginRight:'5px', marginBottom:'10px' }}
