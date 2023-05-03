@@ -1,0 +1,9 @@
+.skill{
+    font-size: 2rem ;
+    transition: 0.5s;
+}
+
+.skill:hover{
+font-size: 100px;
+transition: 0.5s;
+}
