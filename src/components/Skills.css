@@ -7,3 +7,29 @@
 font-size: 100px;
 transition: 0.5s;
 }
+
+
+.html:hover{
+    color: rgb(255, 98, 0)
+}
+.css:hover{
+    color: blue;
+}
+.js:hover{
+    color: yellow;
+}
+.node:hover{
+    color: green;
+}
+.react:hover{
+    color: aqua;
+    animation: rotation 2s infinite linear;
+}
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

@@ -18,11 +18,11 @@ const Skills = (props) => {
     <div style={{paddingTop: '10px'}} id="skills"></div>
       <h1>Skills</h1>
       <div style={{display:'flex', justifyContent: 'space-evenly', width:'30vw'}}>
-        <FontAwesomeIcon className="skill" icon={faHtml5} />
-        <FontAwesomeIcon className="skill" icon={faNode}  />
-        <FontAwesomeIcon className="skill" icon={faCss3}  />
-        <FontAwesomeIcon className="skill" icon={faJs} />
-        <FontAwesomeIcon className="skill" icon={faReact}  />
+        <FontAwesomeIcon className="skill node" icon={faNode}  />
+        <FontAwesomeIcon className="skill html" icon={faHtml5} />
+        <FontAwesomeIcon className="skill react" icon={faReact}  />
+        <FontAwesomeIcon className="skill css" icon={faCss3}  />
+        <FontAwesomeIcon className="skill js" icon={faJs} />
       </div>
     </>
   );
