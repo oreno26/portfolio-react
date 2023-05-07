@@ -17,12 +17,19 @@ const Skills = (props) => {
     <>
     <div style={{paddingTop: '10px'}} id="skills"></div>
       <h1>Skills</h1>
+      <h3>Code Skills</h3>
       <div style={{display:'flex', justifyContent: 'space-evenly', width:'30vw'}}>
         <FontAwesomeIcon className="skill node" icon={faNode}  />
         <FontAwesomeIcon className="skill html" icon={faHtml5} />
         <FontAwesomeIcon className="skill react" icon={faReact}  />
         <FontAwesomeIcon className="skill css" icon={faCss3}  />
         <FontAwesomeIcon className="skill js" icon={faJs} />
+      </div >
+      <h3>Genral Skills</h3>
+      <div style={{display:'flex', justifyContent: 'space-around'}}>
+        <p className="gs">Troubleshooting </p>
+        <p className="gs mid"> Teamwork</p>
+        <p className="gs">  Time management</p>
       </div>
     </>
   );
